@@ -74,6 +74,10 @@ in {
 
           hop = true,
           gitsigns = true,
+          indent_blankline = {
+            enabled = true,
+            colored_indent_levels = true,
+          },
           telescope = true,
           treesitter = true,
           treesitter_context = true,
